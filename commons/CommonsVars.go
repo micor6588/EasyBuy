@@ -2,6 +2,6 @@ package commons
 
 import "github.com/gorilla/mux"
 
-var (
+var  (
 	Router = mux.NewRouter()
 )

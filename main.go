@@ -2,9 +2,10 @@ package main
 
 import (
 	"EasyBuy/commons"
+	"EasyBuy/item"
 	"EasyBuy/user"
-	"html/template"
 	"net/http"
+	"text/template"
 
 	"github.com/gorilla/mux"
 )
@@ -26,6 +27,9 @@ func main() {
 	commons.Router.HandleFunc("/", welcome)
 	//满足/page/{page}格式的处理
 	commons.Router.HandleFunc("/page/{page}", showPage)
+	//用户
 	user.UserHandler()
+	//商品
+	item.ItemHandler()
 	http.ListenAndServe(":80", commons.Router)
 }
