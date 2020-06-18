@@ -1,4 +1,4 @@
-package main
+package commons
 
 //客户端服务器端数据交互模版
 type EgoResult struct {
