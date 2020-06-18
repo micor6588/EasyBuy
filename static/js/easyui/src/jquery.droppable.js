@@ -8,7 +8,7 @@
  *
  */
 /**
- * droppable - jQuery EasyUI
+ * droppable - jQuery EasyUI.go
  * 
  */
 (function($){

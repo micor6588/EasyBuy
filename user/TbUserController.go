@@ -1,6 +1,7 @@
 package user
 
 import (
+	"EasyBuy/commons"
 	"encoding/json"
 	"log"
 	"net/http"
@@ -8,7 +9,7 @@ import (
 
 // UserHandler 所有user模块的handler
 func UserHandler() {
-	http.HandleFunc("/login", loginController)
+	commons.Router.HandleFunc("/login", loginController)
 }
 
 //登录

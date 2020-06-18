@@ -8,7 +8,7 @@
  *
  */
 /**
- * slider - jQuery EasyUI
+ * slider - jQuery EasyUI.go
  * 
  * Dependencies:
  *  draggable

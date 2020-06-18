@@ -8,7 +8,7 @@
  *
  */
 /**
- * easyloader - jQuery EasyUI
+ * easyloader - jQuery EasyUI.go
  * 
  */
 (function(){

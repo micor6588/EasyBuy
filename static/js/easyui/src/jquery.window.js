@@ -8,7 +8,7 @@
  *
  */
 /**
- * window - jQuery EasyUI
+ * window - jQuery EasyUI.go
  * 
  * Dependencies:
  * 	 panel

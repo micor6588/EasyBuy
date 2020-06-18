@@ -8,7 +8,7 @@
  *
  */
 /**
- * parser - jQuery EasyUI
+ * parser - jQuery EasyUI.go
  * 
  */
 

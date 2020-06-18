@@ -8,7 +8,7 @@
  *
  */
 /**
- * linkbutton - jQuery EasyUI
+ * linkbutton - jQuery EasyUI.go
  * 
  */
 (function($){

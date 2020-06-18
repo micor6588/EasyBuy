@@ -8,7 +8,7 @@
  *
  */
 /**
- * resizable - jQuery EasyUI
+ * resizable - jQuery EasyUI.go
  * 
  */
 (function($){

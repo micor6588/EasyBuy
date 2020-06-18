@@ -8,7 +8,7 @@
  *
  */
 /**
- * menu - jQuery EasyUI
+ * menu - jQuery EasyUI.go
  * 
  */
 (function($){

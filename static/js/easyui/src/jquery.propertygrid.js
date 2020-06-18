@@ -8,7 +8,7 @@
  *
  */
 /**
- * propertygrid - jQuery EasyUI
+ * propertygrid - jQuery EasyUI.go
  * 
  * Dependencies:
  * 	 datagrid

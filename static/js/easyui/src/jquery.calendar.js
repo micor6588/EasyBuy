@@ -8,7 +8,7 @@
  *
  */
 /**
- * calendar - jQuery EasyUI
+ * calendar - jQuery EasyUI.go
  * 
  */
 (function($){
