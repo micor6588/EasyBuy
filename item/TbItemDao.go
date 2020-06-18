@@ -29,3 +29,19 @@ func selByPageDao(rows, page int) []TbItem {
 	commons.CloseConn()
 	return ts
 }
+
+//查询总条数
+/*
+如果返回值为<0表示查询失败
+*/
+func selCount() (count int) {
+	rows, err := commons.Dql("select count(*) from tb_item")
+	if err != nil {
+		fmt.Println(err)
+		return -1
+	}
+	rows.Next()
+	rows.Scan(&count)
+	commons.CloseConn()
+	return
+}
